@@ -9,7 +9,7 @@ pub trait ISimpleVault<TContractState> {
 
 
 #[starknet::contract]
-mod HelloStarknet {
+mod SimpleVault {
     use openzeppelin_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
     use starknet::storage::{
         Map, StorageMapReadAccess, StorageMapWriteAccess, StoragePointerReadAccess,
